@@ -13,7 +13,7 @@ namespace SpendSmart.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() // IActionResult method call and search for Index from View() Views folder
         {
             return View();
         }
