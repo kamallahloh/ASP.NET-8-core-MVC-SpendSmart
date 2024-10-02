@@ -17,7 +17,11 @@ namespace SpendSmart.Controllers
         {
             return View();
         }
+        public IActionResult Expenses() // the method exactly same name as the View\Home\Expencses.cshtml \\ https://localhost:7141/home/expenses
 
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
