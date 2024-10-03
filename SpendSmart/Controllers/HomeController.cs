@@ -44,7 +44,15 @@ namespace SpendSmart.Controllers
         // we can add model to the Expenses table from the _context since they have the same type of Expense Class
         public IActionResult CreateEditExpenseForm(Expense model)
         {
-            _context.Expenses.Add(model);
+            if (model.Id == 0)
+            {
+               // Create
+                _context.Expenses.Add(model);
+            } else
+            {
+                // Edit
+                _context.Expenses.Update(model);
+            }
 
             _context.SaveChanges(); // important
 
