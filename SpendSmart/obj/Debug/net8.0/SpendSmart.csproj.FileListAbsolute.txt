@@ -29,3 +29,8 @@ D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\refint\
 D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\SpendSmart.pdb
 D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\SpendSmart.genruntimeconfig.cache
 D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\ref\SpendSmart.dll
+D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\SpendSmart.csproj.AssemblyReference.cache
+D:\Training\C#\ASP.NET-8-core-MVC-SpendSmart\SpendSmart\obj\Debug\net8.0\SpendSmart.csproj.Up2Date

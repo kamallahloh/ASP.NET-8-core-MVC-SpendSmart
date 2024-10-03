@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SpendSmart.Data;
 using SpendSmart.Models;
 using System.Diagnostics;
 
@@ -7,10 +8,15 @@ namespace SpendSmart.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        
+        // new properity for dependency injection
+        private readonly SpendSmartDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        // inject the new properity into the constructor
+        public HomeController(ILogger<HomeController> logger, SpendSmartDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index() => View();// IActionResult method call and search for Index from View() Views folder // they are connected in the Program.cs app.MapControllerRoute pattern
@@ -27,8 +33,12 @@ namespace SpendSmart.Controllers
         }
 
         // we will receive the submitted form body
+        // we can add model to the Expenses table from the _context since they have the same type of Expense Class
         public IActionResult CreateEditExpenseForm(Expense model)
         {
+            _context.Expenses.Add(model);
+
+            _context.SaveChanges(); // important
 
             return RedirectToAction("Index");
         }
