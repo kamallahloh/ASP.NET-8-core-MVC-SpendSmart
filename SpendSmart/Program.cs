@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using SpendSmart.Data;
+
 namespace SpendSmart
 {
     public class Program
@@ -8,6 +11,10 @@ namespace SpendSmart
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            // Add our new made SpendSmartDbContext
+            builder.Services.AddDbContext<SpendSmartDbContext>(options => 
+                options.UseInMemoryDatabase("SpendSmartDb")  // the name of the DB in our memory  
+            );
 
             var app = builder.Build();
 

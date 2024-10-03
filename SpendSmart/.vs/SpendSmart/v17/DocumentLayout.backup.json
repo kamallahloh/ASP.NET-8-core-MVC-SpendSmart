@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\data\\spendsmartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:data\\spendsmartdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\spendsmart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:spendsmart.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SpendSmartDbContext.cs",
+              "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Data\\SpendSmartDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\SpendSmartDbContext.cs",
+              "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Data\\SpendSmartDbContext.cs",
+              "RelativeToolTip": "Data\\SpendSmartDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T12:21:42.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SpendSmart",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\SpendSmart.csproj",
               "RelativeDocumentMoniker": "SpendSmart.csproj",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreateEditExpense.cshtml",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\CreateEditExpense.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\CreateEditExpense.cshtml",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
