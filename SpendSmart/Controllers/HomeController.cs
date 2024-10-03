@@ -29,8 +29,14 @@ namespace SpendSmart.Controllers
             return View(allExpenses);
         }
 
-        public IActionResult CreateEditExpense()
+        public IActionResult CreateEditExpense(int? id) // id can be null on create
         {
+            if (id != null) { 
+                //Editing so load that entity
+                var expenseInDb = _context.Expenses.SingleOrDefault(expense => expense.Id == id); // find the first occurence of this id
+                return View(expenseInDb);
+            }
+
             return View();
         }
 
@@ -42,8 +48,21 @@ namespace SpendSmart.Controllers
 
             _context.SaveChanges(); // important
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Expenses");
         }
+
+        public IActionResult DeleteExpense(int id)
+        {
+            var expenseInDb = _context.Expenses.SingleOrDefault(expense => expense.Id == id); // find the first occurence of this id
+
+            if (expenseInDb == null) return NotFound("expense not found");
+
+            _context.Expenses.Remove(expenseInDb); // remove that entity
+
+            _context.SaveChanges();
+            return RedirectToAction("Expenses");
+        }
+
         public IActionResult Privacy()
         {
             return View();
