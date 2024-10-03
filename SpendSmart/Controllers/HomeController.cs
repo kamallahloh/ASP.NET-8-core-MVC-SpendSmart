@@ -26,6 +26,12 @@ namespace SpendSmart.Controllers
             return View();
         }
 
+        // we will receive the submitted form body
+        public IActionResult CreateEditExpenseForm(Expense model)
+        {
+
+            return RedirectToAction("Index");
+        }
         public IActionResult Privacy()
         {
             return View();
