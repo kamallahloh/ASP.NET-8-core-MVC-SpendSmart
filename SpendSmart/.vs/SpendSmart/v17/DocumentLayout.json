@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +30,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Expenses.cshtml",
+              "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Expenses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Expenses.cshtml",
+              "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Expenses.cshtml",
+              "RelativeToolTip": "Views\\Home\\Expenses.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T12:45:27.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -39,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCoAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-03T11:55:35.71Z",
               "EditorCaption": ""

@@ -4,6 +4,44 @@
     ViewData["Title"] = "Expenses";
 }
 
+<!--the content to show her-->
+@model List<Expense>
+
 <div class="text-center">
     <h1 class="display-4">Expenses</h1>
+    <br/>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Value $
+                </th>
+                <th>
+                    Description
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--for Dynamic list use Razor Syntax-->
+            @{
+                foreach (var expense in Model) // this model @model List<Expense>
+                {
+                    <tr>
+                        <td>
+                            @expense.Id
+                        </td>
+                        <td>
+                            @expense.Value
+                        </td>
+                        <td>
+                            @expense.Description
+                        </td>
+                    </tr>       
+                }
+            }
+        </tbody>
+    </table>
 </div>
