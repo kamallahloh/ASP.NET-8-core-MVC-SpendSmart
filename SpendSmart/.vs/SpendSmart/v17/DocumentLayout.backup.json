@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|d:\\training\\c#\\asp.net-8-core-mvc-spendsmart\\spendsmart\\views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{44B7F89B-BAFC-42DA-8FDD-03C18AF5F16B}|SpendSmart.csproj|solutionrelative:views\\home\\expenses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,77 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAABqAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAtwBoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-02T19:22:14.134Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-10-03T11:59:58.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T11:37:15.444Z",
+              "WhenOpened": "2024-10-03T11:56:44.617Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Expenses.cshtml",
-              "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Expenses.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Expenses.cshtml",
-              "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Views\\Home\\Expenses.cshtml",
-              "RelativeToolTip": "Views\\Home\\Expenses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T11:30:39.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Models\\Expense.cs",
-              "RelativeDocumentMoniker": "Models\\Expense.cs",
-              "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Models\\Expense.cs",
-              "RelativeToolTip": "Models\\Expense.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T11:27:30.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwBwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T19:08:57.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{66f449b5-c823-40bc-9016-02b4d06a1a8e}"
             },
             {
               "$type": "Document",
@@ -114,10 +58,14 @@
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\Training\\C#\\ASP.NET-8-core-MVC-SpendSmart\\SpendSmart\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T18:59:23.66Z",
+              "WhenOpened": "2024-10-03T11:55:35.71Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{66f449b5-c823-40bc-9016-02b4d06a1a8e}"
             }
           ]
         }
