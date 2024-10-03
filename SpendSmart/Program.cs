@@ -28,7 +28,7 @@ namespace SpendSmart
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}"); // action is the method Index from  HomeController.cs
+                pattern: "{controller=Home}/{action=Index}/{id?}"); // action is the Interface named Index from HomeController.cs
 
             app.Run();
         }

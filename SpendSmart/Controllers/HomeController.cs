@@ -13,10 +13,8 @@ namespace SpendSmart.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index() // IActionResult method call and search for Index from View() Views folder
-        {
-            return View();
-        }
+        public IActionResult Index() => View();// IActionResult method call and search for Index from View() Views folder // they are connected in the Program.cs app.MapControllerRoute pattern
+
         public IActionResult Expenses() // the method exactly same name as the View\Home\Expencses.cshtml \\ https://localhost:7141/home/expenses
 
         {
