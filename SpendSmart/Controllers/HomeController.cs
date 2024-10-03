@@ -26,6 +26,10 @@ namespace SpendSmart.Controllers
         {
             var allExpenses = _context.Expenses.ToList(); // without .ToList you will return the Query not the data
 
+            var total = allExpenses.Sum(x => x.Value);
+
+            ViewBag.TotalExpenses = total;
+
             return View(allExpenses);
         }
 
